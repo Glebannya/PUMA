@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* #carouselExampleAutoplaying{
+  height: 86vh;
+}
+
+#carouselExampleAutoplaying *{
+  height: 100%;
+}
+
+#carouselExampleAutoplaying img{
+ object-fit: cover;
+} */
+/* 
+#carouselExampleAutoplaying button{
+  height: 10px;
+  margin-top: 40vh ;
+} */
+
+
+.imag {
+  width: 50px;
+}
+
+a{
+  margin-right:25px ;
+  margin-left:25px ;
+}
+
+
+
+
+.or img{
+    width: 100%;
+    height: 400px;
+
+    object-fit: cover;
+}
