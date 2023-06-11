@@ -1,0 +1,10 @@
+a{
+    margin-right:25px ;
+    margin-left:25px ;
+  }
+
+  .card img{
+    width: 100%;
+    aspect-ratio:  1 /1 ;
+    object-fit: cover;
+}
