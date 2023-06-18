@@ -39,3 +39,32 @@ a{
 
     object-fit: cover;
 }
+
+
+.nav-item a{
+  color: rgb(247, 243, 243);
+}
+.nav-item a:hover {
+  color: white;
+  border-bottom: 1px rgb(212, 245, 27) solid;
+}
+
+.imag:hover{
+  background-color: rgb(244, 195, 131);
+  filter: sepia(80%) saturate(500%);
+}
+
+
+.card{
+  overflow: hidden;
+
+}
+.card:hover img{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.card-body{
+  background-color: white;
+  z-index: 5;
+}
