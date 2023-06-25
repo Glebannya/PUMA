@@ -9,7 +9,11 @@ a{
     margin-left:25px ;
   }
   
-
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .nav-item a{
     color: rgb(247, 243, 243);
   }
@@ -26,7 +30,7 @@ a{
   
   .card{
     overflow: hidden;
-  
+  height: 100%;
   }
   .card:hover img{
     transform: scale(1.2);

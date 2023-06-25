@@ -43,6 +43,7 @@ a{
 
 .nav-item a{
   color: rgb(247, 243, 243);
+  border-bottom: 1px transparent solid;
 }
 .nav-item a:hover {
   color: white;
@@ -53,11 +54,15 @@ a{
   background-color: rgb(244, 195, 131);
   filter: sepia(80%) saturate(500%);
 }
-
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .card{
   overflow: hidden;
-
+height: 100%;
 }
 .card:hover img{
   transform: scale(1.2);
