@@ -73,8 +73,3 @@ height: 100%;
   background-color: white;
   z-index: 5;
 }
-
-.form-control:hover{
-background-color: rgb(245, 242, 96);
-
-}
